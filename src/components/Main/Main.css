@@ -1,0 +1,35 @@
+.press {
+  margin: 0;
+  padding: 0;
+  width: 1600px;
+  height: 360px;
+  display: flex;
+}
+.press-item {
+  list-style: none;
+  width: 25%;
+  /* background: url(../../assets/shoe5.jpg); */
+  background-size: cover;
+  height: 100%;
+  transition: 0.5s;
+}
+.press:hover .press-item:nth-child(odd) {
+  transform: skewY(15deg);
+  box-shadow: inset 20px 0 50px rgba(0,0,0, .5);
+}
+.press:hover .press-item:nth-child(even) {
+  transform: skewY(-15deg);
+  box-shadow: inset 20px 0 50px rgba(0,0,0, .5);
+}
+/* .press .press-item:nth-child(1) {
+  background-position: 0;
+}
+.press .press-item:nth-child(2) {
+  background-position: -160px;
+}
+.press .press-item:nth-child(3) {
+  background-position: -320px;
+}
+.press .press-item:nth-child(4) {
+  background-position: -480px;
+} */

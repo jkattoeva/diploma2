@@ -1,0 +1,27 @@
+.NavToggle {
+
+
+  background-image: url("file:///E:/Downloads/threebars_106419.svg");
+
+  display: none;
+  border: none;
+
+  width: 1.5rem;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: transparent;
+  padding: 1rem 1.5rem;
+  margin-bottom: 50px;
+
+}
+
+
+
+@media (max-width: 600px) {
+  .NavToggle {
+    display: inline-block;
+  }
+}

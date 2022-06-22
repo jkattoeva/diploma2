@@ -1,0 +1,24 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.firstUl {
+  display: flex;
+  padding: 0;
+  margin: 0 30px 0 0;
+}
+.lastUl {
+  display: flex;
+  padding: 0;
+  margin: 0 -50px 0 0;
+}
+
+
+/* @media (max-width: 810px) {
+  .Nav {
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+} */

@@ -1,0 +1,28 @@
+.NavItem a {
+  display: block;
+  padding: 10px 3rem;
+  color: rgb(0, 0, 0); 
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-bottom: 3px solid transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.NavItem a.active {
+  border-color: #473b3b;
+}
+.NavItem a:hover {
+  background-color: #6c5454;
+  border-radius: 5px;
+  color: #ededed; 
+  transition: color .3s ease;
+
+}
+
+
+@media (max-width: 600px) {
+  .NavItem a {
+    border-bottom: none;
+    border-right: 5px solid transparent;
+  }
+}
+
